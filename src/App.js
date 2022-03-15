@@ -1,26 +1,65 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { styled } from '@material-ui/core/styles';
+import About from './About.js';
+import Home from './Home.js';
+import AppBar from '@material-ui/core/AppBar';
+import { HashLink as Link } from 'react-router-hash-link';
 
-function App() {
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+const ClearBar = styled(AppBar)({
+  backgroundColor: 'transparent',
+  border: 0,
+  borderRadius: 3,
+  boxShadow: 'none',
+  color: 'black',
+  height: 48,
+  padding: '80px 9%',
+  maxWidth: '100%',
+  margin: '0',
+  display: 'flex',
+  justifyContent: 'space-between',
+  flexDirection: 'row'
+});
+
+const NavLink = styled(Link)({
+  color: '#000',
+  fontSize: '16px',
+  fontFamily: 'Lato, sans-serif',
+  padding: '15px !important',
+  fontWeight: '300',
+  letterSpacing: "1px",
+  textDecoration: 'none',
+  '&:hover': {
+       color: "#820263",
+    }
+});
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <ClearBar position="fixed">
+        <NavLink to="/">NK</NavLink>
+          <div className="Nav">
+            <NavLink to="/about">about</NavLink>
+            <NavLink smooth to="/#work">work</NavLink>
+            <NavLink smooth to="/#contact">contact</NavLink>
+          </div>
+      </ClearBar>
+      <Switch>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/">
+           <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
-export default App;
+
