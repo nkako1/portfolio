@@ -4,6 +4,7 @@ import About from './About.js';
 import Home from './Home.js';
 import AppBar from '@material-ui/core/AppBar';
 import { HashLink as Link } from 'react-router-hash-link';
+import './App.css';
 
 import {
   BrowserRouter as Router,
@@ -30,7 +31,6 @@ const NavLink = styled(Link)({
   color: '#000',
   fontSize: '16px',
   fontFamily: 'Lato, sans-serif',
-  padding: '15px !important',
   fontWeight: '300',
   letterSpacing: "1px",
   textDecoration: 'none',
@@ -43,8 +43,8 @@ export default function App() {
   return (
     <Router>
       <ClearBar position="fixed">
-        <NavLink to="/">NK</NavLink>
-          <div className="Nav">
+        <NavLink smooth to="/#hello">NK</NavLink>
+          <div className="nav">
             <NavLink to="/about">about</NavLink>
             <NavLink smooth to="/#work">work</NavLink>
             <NavLink smooth to="/#contact">contact</NavLink>

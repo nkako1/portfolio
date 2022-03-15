@@ -2,7 +2,7 @@
 	padding: 8% 10% 0 10%;
 }
 
-.hello {
+#hello {
 	font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: 300;
@@ -22,6 +22,12 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
     grid-row-gap: 40px;
+}
+
+@media (max-width: 767px) {
+	#work {
+	    grid-template-columns: 1fr;
+	}
 }
 
 #contact {

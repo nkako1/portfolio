@@ -26,7 +26,7 @@ const CaseThumbnail = styled(Button)({
 });
 
 function CaseDialog(props) {
-  const { onClose, open, dialogContent } = props;
+  const { onClose, open, dialogContent, closeColor } = props;
 
   const handleClose = () => {
     onClose();
@@ -35,8 +35,8 @@ function CaseDialog(props) {
   return (
     <Dialog fullScreen onClose={handleClose} aria-labelledby="simple-dialog-title" open={open}>
       <div className="close-button" onClick={handleClose}>
-      	<div className="lr">
-          <div className="rl">
+      	<div className="lr" style={{backgroundColor: closeColor}}>
+          <div className="rl" style={{backgroundColor: closeColor}}>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ function CaseDialog(props) {
   );
 }
 
-export default function Case({thumbnail, content, title, subtitle}) {
+export default function Case({thumbnail, content, title, subtitle, closeColor}) {
 
   const [open, setOpen] = React.useState(false);
 
@@ -63,7 +63,7 @@ export default function Case({thumbnail, content, title, subtitle}) {
         <img src={thumbnail} width="100%" />
         <CaseTitle title={title} subtitle={subtitle} />
       </CaseThumbnail>
-      <CaseDialog open={open} onClose={handleClose} dialogContent={content} />
+      <CaseDialog open={open} onClose={handleClose} dialogContent={content} closeColor={closeColor} />
     </>
   );
 }

@@ -11,6 +11,7 @@ body {
   letter-spacing: 1px;
   line-height: 30px;
   color: #838383;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 code {
@@ -21,6 +22,5 @@ code {
 a {
 	color: #820263;   
 	outline: none;
-    text-decoration: none;
+  text-decoration: none;
 }
-
