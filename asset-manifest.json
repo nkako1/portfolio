@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/nkako1/portfolio/static/css/main.7b6a5259.chunk.css",
+    "main.js": "/nkako1/portfolio/static/js/main.cd9bb57a.chunk.js",
+    "main.js.map": "/nkako1/portfolio/static/js/main.cd9bb57a.chunk.js.map",
+    "runtime-main.js": "/nkako1/portfolio/static/js/runtime-main.8551c3cc.js",
+    "runtime-main.js.map": "/nkako1/portfolio/static/js/runtime-main.8551c3cc.js.map",
+    "static/js/2.611bb18a.chunk.js": "/nkako1/portfolio/static/js/2.611bb18a.chunk.js",
+    "static/js/2.611bb18a.chunk.js.map": "/nkako1/portfolio/static/js/2.611bb18a.chunk.js.map",
+    "index.html": "/nkako1/portfolio/index.html",
+    "precache-manifest.3debdad282eab9c7fd8e0af479adb979.js": "/nkako1/portfolio/precache-manifest.3debdad282eab9c7fd8e0af479adb979.js",
+    "service-worker.js": "/nkako1/portfolio/service-worker.js",
+    "static/css/main.7b6a5259.chunk.css.map": "/nkako1/portfolio/static/css/main.7b6a5259.chunk.css.map",
+    "static/js/2.611bb18a.chunk.js.LICENSE.txt": "/nkako1/portfolio/static/js/2.611bb18a.chunk.js.LICENSE.txt",
+    "static/media/NoraKakoResume.pdf": "/nkako1/portfolio/static/media/NoraKakoResume.3495dd7c.pdf",
+    "static/media/downdog.png": "/nkako1/portfolio/static/media/downdog.d1f45015.png",
+    "static/media/eiq_mobility.png": "/nkako1/portfolio/static/media/eiq_mobility.6167c41f.png",
+    "static/media/kapwing.png": "/nkako1/portfolio/static/media/kapwing.d058a9d9.png",
+    "static/media/mindful_mamas.png": "/nkako1/portfolio/static/media/mindful_mamas.223350b0.png",
+    "static/media/reduct.png": "/nkako1/portfolio/static/media/reduct.bb4820c9.png",
+    "static/media/retain.png": "/nkako1/portfolio/static/media/retain.11c27fff.png",
+    "static/media/thumbnail_downdog.png": "/nkako1/portfolio/static/media/thumbnail_downdog.89a03380.png",
+    "static/media/thumbnail_eiq_mobility.png": "/nkako1/portfolio/static/media/thumbnail_eiq_mobility.7f7e498e.png",
+    "static/media/thumbnail_kapwing.png": "/nkako1/portfolio/static/media/thumbnail_kapwing.e0aa5fea.png",
+    "static/media/thumbnail_mindful_mamas.png": "/nkako1/portfolio/static/media/thumbnail_mindful_mamas.7aad94b2.png",
+    "static/media/thumbnail_reduct.png": "/nkako1/portfolio/static/media/thumbnail_reduct.4f797849.png",
+    "static/media/thumbnail_retain.png": "/nkako1/portfolio/static/media/thumbnail_retain.763020bc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8551c3cc.js",
+    "static/js/2.611bb18a.chunk.js",
+    "static/css/main.7b6a5259.chunk.css",
+    "static/js/main.cd9bb57a.chunk.js"
+  ]
+}
