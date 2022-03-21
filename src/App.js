@@ -1,10 +1,12 @@
 import React from 'react';
 import { styled } from '@material-ui/core/styles';
-import About from './About.js';
 import Home from './Home.js';
 import AppBar from '@material-ui/core/AppBar';
 import { HashLink as Link } from 'react-router-hash-link';
 import './App.css';
+import Pdf from './img/NoraKakoResume.pdf';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+
 
 import {
   BrowserRouter as Router,
@@ -22,38 +24,31 @@ const ClearBar = styled(AppBar)({
   padding: '80px 9%',
   maxWidth: '100%',
   margin: '0',
-  display: 'flex',
   justifyContent: 'space-between',
-  flexDirection: 'row'
 });
 
 const NavLink = styled(Link)({
   color: '#000',
-  fontSize: '16px',
-  fontFamily: 'Lato, sans-serif',
+  fontFamily: 'Poppins, sans-serif',
   fontWeight: '300',
   letterSpacing: "1px",
-  textDecoration: 'none',
-  '&:hover': {
-       color: "#820263",
-    }
+  textDecoration: 'none'
 });
 
 export default function App() {
   return (
     <Router>
-      <ClearBar position="fixed">
-        <NavLink smooth to="/#hello">NK</NavLink>
-          <div className="nav">
-            <NavLink to="/about">about</NavLink>
-            <NavLink smooth to="/#work">work</NavLink>
-            <NavLink smooth to="/#contact">contact</NavLink>
-          </div>
+      <ClearBar position="relative" id="headerBar">
+        <div>Nora Kako</div>
+        <div className="info">Founder and lead <br />designer at <a className="static-underline" href="https://flocksf.com" target="_blank" rel="noopener noreferrer">Flock</a></div>
+        <div className="info">Based in San<br />Francisco, CA</div>
+        <div className="nav">
+          <a className="hover-underline" href="https://flocksf.com/work" target="_blank" rel="noopener noreferrer">Work,</a>
+          <NavLink smooth to="/#contact" className="hover-underline">Contact,</NavLink>
+          <a className="static-underline" href={Pdf} target="_blank" rel="noopener noreferrer">Resume</a>
+        </div>
       </ClearBar>
       <Switch>
-        <Route path="/about">
-          <About />
-        </Route>
         <Route path="/">
            <Home />
         </Route>

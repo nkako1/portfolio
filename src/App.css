@@ -1,5 +1,33 @@
+#headerBar {
+	display: grid;
+	grid-auto-flow: column;
+	font-size: 14px;
+	line-height: 140%;
+}
+
+.info {
+	order: 1;
+}
+
 .nav {
 	display: grid;
 	grid-auto-flow: column;
-    column-gap: 15px;
+    column-gap: 5px;
+    font-size: 14px;
+    order: 2;
+}
+
+@media (max-width: 767px) {
+      #headerBar {
+      	grid-auto-flow: unset;
+      	grid-template-columns: 1fr 1fr;
+      	grid-row-gap: 20px;
+      }
+      .nav {
+      	order: 1;
+      }
+     
+      .info {
+      	order: 2;
+      }
 }
