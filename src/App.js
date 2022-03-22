@@ -43,7 +43,7 @@ export default function App() {
         <div className="info">Founder and lead <br />designer at <a className="static-underline" href="https://flocksf.com" target="_blank" rel="noopener noreferrer">Flock</a></div>
         <div className="info">Based in San<br />Francisco, CA</div>
         <div className="nav">
-          <a className="hover-underline" href="https://flocksf.com/work" target="_blank" rel="noopener noreferrer">Work,</a>
+          <a className="hover-underline" href="https://flocksf.com/#/work" target="_blank" rel="noopener noreferrer">Work,</a>
           <NavLink smooth to="/#contact" className="hover-underline">Contact,</NavLink>
           <a className="static-underline" href={Pdf} target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
