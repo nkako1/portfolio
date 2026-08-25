@@ -28,17 +28,12 @@
      }
 }
 
-#contact {
-    text-decoration: none;
-}
-
-
 @media (max-width: 767px) {
     #hello {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 37.5px;
+    line-height: 50px;
     margin-top:5%;
-    }       
+    }
 }
 
 
