@@ -43,7 +43,7 @@ function Caption({ title, children }) {
 
 function Lamps() {
   useEffect(() => {
-    document.title = 'Nora Kako — Lamps';
+    document.title = 'Handmade Paper Lamps — Nora Kako, Brooklyn';
   }, []);
 
   return (

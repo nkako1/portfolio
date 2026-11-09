@@ -24,7 +24,7 @@ function Contact() {
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
-    document.title = 'Nora Kako — Contact';
+    document.title = 'Contact — Nora Kako';
   }, []);
 
   function handleClick() {
