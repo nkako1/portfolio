@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
@@ -15,7 +16,7 @@ function Home() {
         <br /><br />
       	For 6 years, I led design at <a className="hover-underline-animation" href="https://flocksf.com" target="_blank" rel="noopener noreferrer">Flock Studio</a>. Please go check out our work.
         <br /><br />
-        Currently helping out at <a className="hover-underline-animation" href="https://www.ode.com/" target="_blank" rel="noopener noreferrer">Ode</a> and exploring interiors.
+        Currently helping out at <a className="hover-underline-animation" href="https://www.ode.com/" target="_blank" rel="noopener noreferrer">Ode</a> and <Link className="hover-underline-animation" to="/lamps">making lamps</Link>.
       </div>
     </div>
   );

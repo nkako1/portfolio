@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { styled } from '@material-ui/core/styles';
 import Home from './Home.js';
 import Contact from './Contact.js';
+import Lamps from './Lamps.js';
 import AppBar from '@material-ui/core/AppBar';
 import { HashLink as Link } from 'react-router-hash-link';
 import './App.css';
@@ -9,7 +10,8 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  useLocation
 } from "react-router-dom";
 
 function ArrowIcon() {
@@ -41,13 +43,49 @@ const NavLink = styled(Link)({
   textDecoration: 'none'
 });
 
-export default function App() {
+function ScrollToTop() {
+  const { pathname, hash } = useLocation();
+
+  useEffect(() => {
+    if (!hash) window.scrollTo(0, 0);
+  }, [pathname, hash]);
+
+  return null;
+}
+
+function Nav() {
+  const { pathname } = useLocation();
+  const minimal = pathname.startsWith('/lamps');
+
+  return (
+    <ClearBar
+      position={minimal ? 'absolute' : 'relative'}
+      id="headerBar"
+      className={minimal ? 'on-dark' : undefined}
+    >
+      <NavLink to="/" className="Name">Nora Kako</NavLink>
+      {!minimal && (
+        <>
+          <a className="hover-underline" href="https://flocksf.com/#/work" target="_blank" rel="noopener noreferrer">Work<ArrowIcon /></a>
+          <a className="hover-underline" href={process.env.PUBLIC_URL + '/NoraKakoResume.pdf'} target="_blank" rel="noopener noreferrer">Resume<ArrowIcon /></a>
+          <NavLink to="/contact" className="hover-underline">Contact</NavLink>
+        </>
+      )}
+    </ClearBar>
+  );
+}
+
+// Mobile-only: the rainbow aura fades in as you scroll. Off on /lamps.
+function ScrollAura() {
+  const { pathname } = useLocation();
+  const auraDisabled = pathname.startsWith('/lamps');
+
   useEffect(() => {
     let ticking = false;
     const mobileQuery = window.matchMedia('(max-width: 767px)');
 
     function updateAuraProgress() {
-      if (!mobileQuery.matches) {
+      if (!mobileQuery.matches || auraDisabled) {
         document.documentElement.style.setProperty('--aura', 0);
         ticking = false;
         return;
@@ -75,19 +113,23 @@ export default function App() {
       window.removeEventListener('resize', onScroll);
       mobileQuery.removeEventListener('change', onScroll);
     };
-  }, []);
+  }, [auraDisabled]);
 
+  return null;
+}
+
+export default function App() {
   return (
     <Router>
-      <ClearBar position="relative" id="headerBar">
-        <NavLink to="/" className="Name">Nora Kako</NavLink>
-        <a className="hover-underline" href="https://flocksf.com/#/work" target="_blank" rel="noopener noreferrer">Work<ArrowIcon /></a>
-        <a className="hover-underline" href={process.env.PUBLIC_URL + '/NoraKakoResume.pdf'} target="_blank" rel="noopener noreferrer">Resume<ArrowIcon /></a>
-        <NavLink to="/contact" className="hover-underline">Contact</NavLink>
-      </ClearBar>
+      <ScrollToTop />
+      <ScrollAura />
+      <Nav />
       <Switch>
         <Route path="/contact">
            <Contact />
+        </Route>
+        <Route path="/lamps">
+           <Lamps />
         </Route>
         <Route path="/" exact>
            <Home />
