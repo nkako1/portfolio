@@ -3,76 +3,76 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://norakako.com/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://norakako.com/lamps</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://norakako.com/static/media/hero.d9f7fcbd3ee794bd4fff.jpg</image:loc>
-      <image:title>Knot, a handmade mulberry paper pendant lamp</image:title>
+      <image:title>Bowline, a handmade mulberry paper pendant lamp</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/knot-hanging.7190038cab50111a5830.jpg</image:loc>
-      <image:title>Knot, woven paper pendant lamp</image:title>
+      <image:loc>https://norakako.com/static/media/bowline-hanging.7190038cab50111a5830.jpg</image:loc>
+      <image:title>Bowline, woven paper pendant lamp</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/knot-detail.8aa7189cf5d4338f15f0.jpg</image:loc>
-      <image:title>Knot pendant lamp, detail of woven paper bands</image:title>
+      <image:loc>https://norakako.com/static/media/bowline-detail.8aa7189cf5d4338f15f0.jpg</image:loc>
+      <image:title>Bowline pendant lamp, detail of woven paper bands</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/flame.a802f18e7758f3e0ae25.jpg</image:loc>
-      <image:title>Flame, paper table lamp shaped like flames</image:title>
+      <image:loc>https://norakako.com/static/media/wick.a802f18e7758f3e0ae25.jpg</image:loc>
+      <image:title>Wick, paper table lamp shaped like flames</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/flame-tips.8a2a5af380eb22fe6089.jpg</image:loc>
-      <image:title>Flame table lamp, glowing paper tips</image:title>
+      <image:loc>https://norakako.com/static/media/wick-tips.8a2a5af380eb22fe6089.jpg</image:loc>
+      <image:title>Wick table lamp, glowing paper tips</image:title>
     </image:image>
     <image:image>
       <image:loc>https://norakako.com/static/media/scallop.d3cdda8082bc7896699e.jpg</image:loc>
       <image:title>Scallop, scalloped paper table lamp</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/scallop-flame.1017b3300d890ea2803b.jpg</image:loc>
-      <image:title>Scallop and Flame paper lamps side by side</image:title>
+      <image:loc>https://norakako.com/static/media/scallop-wick.1017b3300d890ea2803b.jpg</image:loc>
+      <image:title>Scallop and Wick paper lamps side by side</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/oyster.03002f9c425d7506684c.jpg</image:loc>
-      <image:title>Oyster, oval paper wall light</image:title>
+      <image:loc>https://norakako.com/static/media/mabe.03002f9c425d7506684c.jpg</image:loc>
+      <image:title>Mabe, oval paper wall light</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/oyster-detail.9663a1a2c889990ed856.jpg</image:loc>
-      <image:title>Oyster wall light, layered paper rings around the bulb</image:title>
+      <image:loc>https://norakako.com/static/media/mabe-detail.9663a1a2c889990ed856.jpg</image:loc>
+      <image:title>Mabe wall light, layered paper rings around the bulb</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/cloud-room.e89f7f0c1d0e4c684931.jpg</image:loc>
-      <image:title>Cloud, sculptural paper pendant over a dining table</image:title>
+      <image:loc>https://norakako.com/static/media/sycee-room.0d3e13ea5a420485bd70.jpg</image:loc>
+      <image:title>Sycee, sculptural paper pendant over a dining table</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/cloud-dinner.eeb67e5a50e05add6ce0.jpg</image:loc>
-      <image:title>Cloud pendant lamp over dinner</image:title>
+      <image:loc>https://norakako.com/static/media/sycee-dinner.ec36849363d895b937de.jpg</image:loc>
+      <image:title>Sycee pendant lamp over dinner</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/cloud-side.cffa39198cb0a44ffe78.jpg</image:loc>
-      <image:title>Cloud pendant lamp, side view</image:title>
+      <image:loc>https://norakako.com/static/media/sycee-side.cffa39198cb0a44ffe78.jpg</image:loc>
+      <image:title>Sycee pendant lamp, side view</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/bug.119e994fa56f2b2f1ff6.jpg</image:loc>
-      <image:title>Bug, tall segmented paper floor lamp</image:title>
+      <image:loc>https://norakako.com/static/media/husk.119e994fa56f2b2f1ff6.jpg</image:loc>
+      <image:title>Husk, tall segmented paper floor lamp</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/bug-detail.2ff162cef7fa137ee00f.jpg</image:loc>
-      <image:title>Bug floor lamp, paper and reed detail</image:title>
+      <image:loc>https://norakako.com/static/media/husk-detail.2ff162cef7fa137ee00f.jpg</image:loc>
+      <image:title>Husk floor lamp, paper and reed detail</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/bug-twist.f41f392db43200444a35.jpg</image:loc>
-      <image:title>Bug floor lamp, twisting paper segments</image:title>
+      <image:loc>https://norakako.com/static/media/husk-twist.f41f392db43200444a35.jpg</image:loc>
+      <image:title>Husk floor lamp, twisting paper segments</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://norakako.com/static/media/cone.1e41dde266467f6e0f5c.jpg</image:loc>
-      <image:title>Cone, paper pendant lamp</image:title>
+      <image:loc>https://norakako.com/static/media/point.1e41dde266467f6e0f5c.jpg</image:loc>
+      <image:title>Point, cone-shaped paper pendant lamp</image:title>
     </image:image>
     <image:image>
       <image:loc>https://norakako.com/static/media/process-1.6d540424f1cf7cce2e36.jpg</image:loc>
@@ -85,7 +85,7 @@
   </url>
   <url>
     <loc>https://norakako.com/contact</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.5</priority>
   </url>
 </urlset>
