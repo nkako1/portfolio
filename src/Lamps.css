@@ -79,27 +79,28 @@
 }
 
 /* Placement, top to bottom */
-.b-knot-a        { grid-column: 1 / span 5; }
-.b-knot-b        { grid-column: 7 / span 6; align-self: end; }
+.b-bowline-a        { grid-column: 1 / span 5; }
+.b-bowline-b        { grid-column: 7 / span 6; align-self: end; }
 
-.b-flame-a       { grid-column: 4 / span 6; }
-.b-flame-c       { grid-column: 1 / -1; }
+.b-wick-a       { grid-column: 4 / span 6; }
+.b-wick-c       { grid-column: 1 / -1; }
 
-.b-scallop-a     { grid-column: 2 / span 4; }
-.b-scallop-b     { grid-column: 7 / span 6; align-self: center; }
+/* Scallop: a compact pair inset from both edges, like the smaller Sycee pair */
+.b-scallop-b     { grid-column: 2 / span 5; align-self: start; }
+.b-scallop-a     { grid-column: 8 / span 4; align-self: start; margin-top: 260px; }
 
-.b-oyster-a      { grid-column: 1 / span 5; }
-.b-oyster-b      { grid-column: 7 / span 6; margin-top: 240px; }
+.b-mabe-a      { grid-column: 1 / span 5; align-self: end; }
+.b-mabe-b      { grid-column: 7 / span 6; align-self: end; }
 
-.b-cloud-a       { grid-column: 1 / -1; }
-.b-cloud-b       { grid-column: 3 / span 4; }
-.b-cloud-c       { grid-column: 8 / span 4; margin-top: 180px; }
+.b-sycee-a       { grid-column: 1 / -1; }
+.b-sycee-b       { grid-column: 3 / span 4; }
+.b-sycee-c       { grid-column: 8 / span 4; margin-top: 180px; }
 
-.b-cone          { grid-column: 5 / span 4; }
+.b-point          { grid-column: 5 / span 4; }
 
-.b-bug-a         { grid-column: 1 / span 5; grid-row: span 2; align-self: center; }
-.b-bug-c         { grid-column: 8 / span 5; }
-.b-bug-b         { grid-column: 9 / span 3; align-self: end; }
+.b-husk-a         { grid-column: 1 / span 5; grid-row: span 2; align-self: center; }
+.b-husk-c         { grid-column: 8 / span 5; }
+.b-husk-b         { grid-column: 9 / span 3; align-self: end; }
 
 .b-process-a     { grid-column: 1 / span 8; }
 .b-process-note  { grid-column: 2 / span 4; align-self: end; font-size: 20px; line-height: 1.6; }

@@ -17,7 +17,7 @@ const today = new Date().toISOString().slice(0, 10);
 const template = fs.readFileSync(path.join(BUILD, 'index.html'), 'utf8');
 const manifest = JSON.parse(fs.readFileSync(path.join(BUILD, 'asset-manifest.json'), 'utf8')).files;
 
-// Absolute URL of a bundled image, e.g. media('flame.jpg')
+// Absolute URL of a bundled image, e.g. media('wick.jpg')
 function media(name) {
   const url = manifest[`static/media/${name}`];
   if (!url) throw new Error(`seo.js: no bundled image named ${name}`);
@@ -30,33 +30,33 @@ const PERSON = { '@type': 'Person', '@id': `${SITE}/#nora`, name: 'Nora Kako', u
 const MATERIALS = 'Mulberry paper and reed';
 
 const LAMPS = [
-  { name: 'Knot', form: 'Pendant lamp', image: 'knot-hanging.jpg' },
-  { name: 'Flame', form: 'Table lamp', image: 'flame.jpg' },
+  { name: 'Bowline', form: 'Pendant lamp', image: 'bowline-hanging.jpg' },
+  { name: 'Wick', form: 'Table lamp', image: 'wick.jpg' },
   { name: 'Scallop', form: 'Table lamp', image: 'scallop.jpg', medium: 'Mulberry paper on a found wire frame' },
-  { name: 'Oyster', form: 'Wall light', image: 'oyster.jpg' },
-  { name: 'Cloud', form: 'Pendant lamp', image: 'cloud-room.jpg' },
-  { name: 'Bug', form: 'Floor lamp', image: 'bug.jpg' },
-  { name: 'Cone', form: 'Pendant lamp', image: 'cone.jpg' },
+  { name: 'Mabe', form: 'Wall light', image: 'mabe.jpg' },
+  { name: 'Sycee', form: 'Pendant lamp', image: 'sycee-room.jpg' },
+  { name: 'Husk', form: 'Floor lamp', image: 'husk.jpg' },
+  { name: 'Point', form: 'Pendant lamp', image: 'point.jpg' },
 ];
 
 // Every lamp photo, for the image sitemap
 const LAMP_IMAGES = [
-  ['hero.jpg', 'Knot, a handmade mulberry paper pendant lamp'],
-  ['knot-hanging.jpg', 'Knot, woven paper pendant lamp'],
-  ['knot-detail.jpg', 'Knot pendant lamp, detail of woven paper bands'],
-  ['flame.jpg', 'Flame, paper table lamp shaped like flames'],
-  ['flame-tips.jpg', 'Flame table lamp, glowing paper tips'],
+  ['hero.jpg', 'Bowline, a handmade mulberry paper pendant lamp'],
+  ['bowline-hanging.jpg', 'Bowline, woven paper pendant lamp'],
+  ['bowline-detail.jpg', 'Bowline pendant lamp, detail of woven paper bands'],
+  ['wick.jpg', 'Wick, paper table lamp shaped like flames'],
+  ['wick-tips.jpg', 'Wick table lamp, glowing paper tips'],
   ['scallop.jpg', 'Scallop, scalloped paper table lamp'],
-  ['scallop-flame.jpg', 'Scallop and Flame paper lamps side by side'],
-  ['oyster.jpg', 'Oyster, oval paper wall light'],
-  ['oyster-detail.jpg', 'Oyster wall light, layered paper rings around the bulb'],
-  ['cloud-room.jpg', 'Cloud, sculptural paper pendant over a dining table'],
-  ['cloud-dinner.jpg', 'Cloud pendant lamp over dinner'],
-  ['cloud-side.jpg', 'Cloud pendant lamp, side view'],
-  ['bug.jpg', 'Bug, tall segmented paper floor lamp'],
-  ['bug-detail.jpg', 'Bug floor lamp, paper and reed detail'],
-  ['bug-twist.jpg', 'Bug floor lamp, twisting paper segments'],
-  ['cone.jpg', 'Cone, paper pendant lamp'],
+  ['scallop-wick.jpg', 'Scallop and Wick paper lamps side by side'],
+  ['mabe.jpg', 'Mabe, oval paper wall light'],
+  ['mabe-detail.jpg', 'Mabe wall light, layered paper rings around the bulb'],
+  ['sycee-room.jpg', 'Sycee, sculptural paper pendant over a dining table'],
+  ['sycee-dinner.jpg', 'Sycee pendant lamp over dinner'],
+  ['sycee-side.jpg', 'Sycee pendant lamp, side view'],
+  ['husk.jpg', 'Husk, tall segmented paper floor lamp'],
+  ['husk-detail.jpg', 'Husk floor lamp, paper and reed detail'],
+  ['husk-twist.jpg', 'Husk floor lamp, twisting paper segments'],
+  ['point.jpg', 'Point, cone-shaped paper pendant lamp'],
   ['process-1.jpg', 'Covering a reed lamp frame with mulberry paper'],
   ['tent.jpg', 'Backyard tent studio in Brooklyn where the lamps are made'],
 ];
