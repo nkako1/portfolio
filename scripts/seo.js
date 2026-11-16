@@ -36,6 +36,7 @@ const LAMPS = [
   { name: 'Mabe', form: 'Wall light', image: 'mabe.jpg' },
   { name: 'Sycee', form: 'Pendant lamp', image: 'sycee-room.jpg' },
   { name: 'Husk', form: 'Floor lamp', image: 'husk.jpg' },
+  { name: 'Peel', form: 'Table lamp', image: 'peel.jpg' },
   { name: 'Point', form: 'Pendant lamp', image: 'point.jpg' },
 ];
 
@@ -56,6 +57,8 @@ const LAMP_IMAGES = [
   ['husk.jpg', 'Husk, tall segmented paper floor lamp'],
   ['husk-detail.jpg', 'Husk floor lamp, paper and reed detail'],
   ['husk-twist.jpg', 'Husk floor lamp, twisting paper segments'],
+  ['peel.jpg', 'Peel, round paper table lamp with open, layered segments'],
+  ['peel-detail.jpg', 'Peel table lamp, detail of layered mulberry paper'],
   ['point.jpg', 'Point, cone-shaped paper pendant lamp'],
   ['process-1.jpg', 'Covering a reed lamp frame with mulberry paper'],
   ['tent.jpg', 'Backyard tent studio in Brooklyn where the lamps are made'],

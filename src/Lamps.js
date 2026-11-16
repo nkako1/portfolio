@@ -14,6 +14,8 @@ import syceeRoom from './img/lamps/sycee-room.jpg';
 import syceeDinner from './img/lamps/sycee-dinner.jpg';
 import syceeSide from './img/lamps/sycee-side.jpg';
 import point from './img/lamps/point.jpg';
+import peel from './img/lamps/peel.jpg';
+import peelDetail from './img/lamps/peel-detail.jpg';
 import husk from './img/lamps/husk.jpg';
 import huskTwist from './img/lamps/husk-twist.jpg';
 import huskDetail from './img/lamps/husk-detail.jpg';
@@ -109,6 +111,13 @@ function Lamps() {
           alt="Close-up of Husk's paper and reed ribs" />
         <Photo className="b-husk-b" src={huskTwist} w={1200} h={1600}
           alt="Husk's twisting paper segments, seen from the front" />
+
+        {/* Peel: detail inset from the left, the full lamp smaller on the right, dropped well below the detail */}
+        <Photo className="b-peel-b" src={peelDetail} w={1800} h={1350}
+          alt="Close-up of Peel's open paper layers curving around the glowing core" />
+        <Photo className="b-peel-a" src={peel} w={1200} h={1600}
+          alt="Round paper table lamp with cut-away layers glowing on a windowsill at night"
+          caption={<Caption title="Peel">table lamp, mulberry paper and reed</Caption>} />
 
         {/* Point */}
         <Photo className="b-point" src={point} w={1068} h={1600}
