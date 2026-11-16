@@ -3,12 +3,12 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://norakako.com/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://norakako.com/lamps</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://norakako.com/static/media/hero.d9f7fcbd3ee794bd4fff.jpg</image:loc>
@@ -71,6 +71,14 @@
       <image:title>Husk floor lamp, twisting paper segments</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://norakako.com/static/media/peel.c1fb889561780952f49e.jpg</image:loc>
+      <image:title>Peel, round paper table lamp with open, layered segments</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://norakako.com/static/media/peel-detail.5135949bc7c26796ad9b.jpg</image:loc>
+      <image:title>Peel table lamp, detail of layered mulberry paper</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://norakako.com/static/media/point.1e41dde266467f6e0f5c.jpg</image:loc>
       <image:title>Point, cone-shaped paper pendant lamp</image:title>
     </image:image>
@@ -85,7 +93,7 @@
   </url>
   <url>
     <loc>https://norakako.com/contact</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <priority>0.5</priority>
   </url>
 </urlset>

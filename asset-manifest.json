@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3297c8c6.css",
-    "main.js": "/static/js/main.9295e481.js",
+    "main.css": "/static/css/main.bca79832.css",
+    "main.js": "/static/js/main.b3916ea8.js",
     "static/media/tent.jpg": "/static/media/tent.b94b78310c5341963a23.jpg",
     "static/media/wick-tips.jpg": "/static/media/wick-tips.8a2a5af380eb22fe6089.jpg",
     "static/media/sycee-room.jpg": "/static/media/sycee-room.0d3e13ea5a420485bd70.jpg",
@@ -18,14 +18,16 @@
     "static/media/husk-detail.jpg": "/static/media/husk-detail.2ff162cef7fa137ee00f.jpg",
     "static/media/bowline-hanging.jpg": "/static/media/bowline-hanging.7190038cab50111a5830.jpg",
     "static/media/hero.jpg": "/static/media/hero.d9f7fcbd3ee794bd4fff.jpg",
+    "static/media/peel-detail.jpg": "/static/media/peel-detail.5135949bc7c26796ad9b.jpg",
     "static/media/point.jpg": "/static/media/point.1e41dde266467f6e0f5c.jpg",
+    "static/media/peel.jpg": "/static/media/peel.c1fb889561780952f49e.jpg",
     "static/media/sycee-side.jpg": "/static/media/sycee-side.cffa39198cb0a44ffe78.jpg",
     "index.html": "/index.html",
-    "main.3297c8c6.css.map": "/static/css/main.3297c8c6.css.map",
-    "main.9295e481.js.map": "/static/js/main.9295e481.js.map"
+    "main.bca79832.css.map": "/static/css/main.bca79832.css.map",
+    "main.b3916ea8.js.map": "/static/js/main.b3916ea8.js.map"
   },
   "entrypoints": [
-    "static/css/main.3297c8c6.css",
-    "static/js/main.9295e481.js"
+    "static/css/main.bca79832.css",
+    "static/js/main.b3916ea8.js"
   ]
 }
